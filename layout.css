@@ -1,5 +1,18 @@
+body {
+    background-color: #050505;
+}
+
+h1 {
+    color: #0cd1f5;
+
+}
+
 form {
     margin-bottom: 1em;
+}
+
+.pure-button-primary {
+    background-color: #d90d0d;
 }
 
 #lips {
@@ -11,6 +24,7 @@ form {
     margin-left: auto;
     margin-right: auto;
 }
+
 #lips.open {
     background: url("images/people-lips-open.png") no-repeat;
 }
@@ -23,7 +37,7 @@ form {
 .bubble p  {
     display: inline;
     position: relative;
-    background: #FFCCCC;
+    background: #d90d0d;
     height: 1em;
     padding: 15px;
     border-radius: 15px;
@@ -32,7 +46,6 @@ form {
 
 .bubble p:after {
     position: absolute;
-    border-color: transparent #FFCCCC;
     border-style: solid;
     content: "";
     display: block;
@@ -48,6 +61,7 @@ form {
     top: 25px;
     left: -54px;
     border-width: 18px 54px 0 0;
+    border-color: transparent #d90d0d;
 }
 
 .bubble-right {
@@ -56,9 +70,14 @@ form {
     right: 200px;
 }
 
+.bubble-right p {
+    background-color: #0cd1f5;
+}
+
 .bubble-right p:after {
     top: 25px;
     right: -54px;
     border-width: 18px 0 0 54px;
+    border-color: transparent #0cd1f5;
 }
 
