@@ -49,35 +49,36 @@ form {
     border-style: solid;
     content: "";
     display: block;
+
 }
 
-.bubble-left {
+.bubble-ac {
     margin-left: 40px;
     top: -192px;
     left: 531px;
 }
 
-.bubble-left p:after {
+.bubble-ac p:after {
     top: 25px;
     left: -54px;
     border-width: 18px 54px 0 0;
     border-color: transparent #d90d0d;
 }
 
-.bubble-right {
+.bubble-mb {
     margin-right: 40px;
-    top: -304px;
-    right: 200px;
+    top: -501px;
+    left: 471px;
 }
 
-.bubble-right p {
+.bubble-mb p {
     background-color: #0cd1f5;
 }
 
-.bubble-right p:after {
+.bubble-mb p:after {
     top: 25px;
-    right: -54px;
-    border-width: 18px 0 0 54px;
+    left: -54px;
+    border-width: 18px 54px 0 0;
     border-color: transparent #0cd1f5;
 }
 

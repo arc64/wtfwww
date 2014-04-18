@@ -1,6 +1,7 @@
 
 function say(text) {
     $(".bubble p").html(text);
+    //$(".bubble-right").css({right: $(".bubble p").length+210});
     $(".bubble").show();
 
 
