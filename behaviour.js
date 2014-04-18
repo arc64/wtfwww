@@ -1,9 +1,7 @@
 
 function say(text) {
     $(".bubble p").html(text);
-    //$(".bubble-right").css({right: $(".bubble p").length+210});
     $(".bubble").show();
-
 
     var speak=function(count) {
         if (count>0) {
@@ -12,8 +10,8 @@ function say(text) {
     }
     else {
         $("#lips").removeClass("open");
-       // setTimeout(function(){$(".bubble").hide();},2000);
-            }
+            setTimeout(function(){$(".bubble").hide();},2000);
+        }
     };
 
     speak(text.split(" ").length*2);
