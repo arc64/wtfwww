@@ -1,0 +1,45 @@
+form {
+    margin-bottom: 1em;
+}
+
+#lips {
+    background: url("images/lips-closed.jpg") no-repeat;
+    width: 400px;
+    height: 282px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#lips.open {
+    background: url("images/lips-open.jpg") no-repeat;
+}
+
+#bubble {
+    display: none;
+    position: relative;
+    top: -156px;
+    left: 375px;
+}
+#bubble p  {
+    display: inline;
+    position: relative;
+    background: #FFCCCC;
+    margin-left: 40px;
+    height: 1em;
+    padding: 15px;
+    border-radius: 15px;
+    font-size: 3em;
+}
+
+
+#bubble p:after {
+    position: absolute;
+    top: 25px;
+    left: -54px;
+    border-width: 18px 54px 0 0;
+    border-color: transparent #FFCCCC;
+    border-style: solid;
+    content: "";
+    display: block;
+};
